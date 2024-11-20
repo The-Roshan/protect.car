@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Game</title>
+  <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+
+  <div id="gameContainer">
+    <canvas id="gameCanvas"></canvas>
+
+    <div class="controls">
+      <button id="easyButton">Easy</button>
+      <button id="mediumButton">Medium</button>
+      <button id="hardButton">Hard</button>
+      <button id="startButton" style="display: none;">Start Game</button>
+      <button id="restartButton" style="display: none;">Restart Game</button>
+    </div>
+
+    <div class="scoreDisplay">
+      <span id="score">Score: 0</span>
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
